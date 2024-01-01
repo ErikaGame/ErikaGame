@@ -1,0 +1,533 @@
+
+ /* styles.css */
+ 
+
+body {
+	width: 100%;    
+	height: 420px;
+	background: 
+		linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 10)), 
+		url(https://pbs.twimg.com/profile_banners/1683261652827774977/1701549700/1500x500);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: top;    
+    margin: 0;
+    padding: 10;
+    overflow: hidden;
+    background-color: #000;
+    color: black;
+    font-family: Arial, sans-serif;
+}
+
+#video-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    opacity: 0.8;
+}
+
+#video-background {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#language-options {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.language-option {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 1.2em;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+#buttons {
+    margin-top: 20px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1.5em;
+    color: white;
+    text-decoration: none;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    margin: 10px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.button:hover {
+	background-image: url(https://pbs.twimg.com/profile_banners/1683261652827774977/1701549700/1500x500);
+	background-size:cover;
+    color: white;
+}
+
+/* styles.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+	
+}
+
+.form-container {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    text-align: center;
+	
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input {
+    padding: 10px;
+    margin: 5px 0;
+    width: 100%;
+}
+
+button {
+    background-color: #fff;
+    color: #000;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover {
+    background-color: #000;
+    color: white;
+}
+
+
+
+/* styles.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input {
+    padding: 10px;
+    margin: 5px 0;
+    width: 100%;
+}
+
+button {
+    background-color: #fff;
+    color: #000;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover {
+    background-color: #000;
+    color: white;
+}
+
+/* styles.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.video-container {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#video-background {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1.5em;
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    margin: 10px;
+    transition: background-color 0.45s, color 0.3s;
+}
+
+.button:hover {
+    background-color: #fff;
+    color: white;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.feature {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 1px solid #fff;
+    border-radius: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+.feature h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+/* styles.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+}
+
+header {
+	background-color:black;
+    color: #fff;
+    padding: 10px 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+nav {
+    text-align: right;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2em;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #C0C0C0;
+}
+
+main {
+    padding: 60px 20px 20px; /* Adjust the top padding based on the header height */
+	
+}
+
+.section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+	
+}
+
+h2 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.5em;
+}
+
+.animated-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    color: black;
+    text-decoration: none;
+    background-color: #C0C0C0;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    margin-top: 20px;
+    opacity: 0.8;
+    transition: background-color 0.3s, opacity 0.3s;
+}
+
+.animated-button:hover {
+    background-color: #fff;
+    color: #000;
+    opacity: 1;
+}
+
+/* Color change animation */
+@keyframes colorChange {
+    0% {
+        background-color: #3498db; /* Start color */
+    }
+    50% {
+        background-color: #e74c3c; /* Middle color */
+    }
+    100% {
+        background-color: #2ecc71; /* End color */
+    }
+}
+
+.color-changing-btn {
+    background-color: #12323db; /* Initial color */
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.2s ease; /* Add transition for smoother effect */
+    animation: colorChange 25s infinite alternate; /* Apply color change animation */
+	 border-radius: 5px;
+}
+.color-changing-btn2 {
+    background-color: #3498db; /* Initial color */
+    color: white;
+    padding: 16px 12px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease; /* Add transition for smoother effect */
+    animation: colorChange 17s infinite alternate; /* Apply color change animation */
+	border-radius: 5px;
+	display: inline-block;
+    padding: 10px 20px;
+    font-size: 1.5em;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 10px;
+    transition: background-color 0.3s, color 0.3s;
+}
+.color-changing-btn2:hover {
+	background-image: url(https://pbs.twimg.com/profile_banners/1683261652827774977/1701549700/1500x500);
+	background-size:cover;
+    color: white;
+}
+.back-button {
+    position: fixed;
+    bottom: 20px;
+	font-size: 24px;
+    left: 20px;
+    color: white;
+	transition: background-color 0.2s ease; /* Add transition for smoother effect */
+    animation: colorChange 25s infinite alternate; /* Apply color change animation */
+	 border-radius: 5px;
+}
+.form-container {
+	border-image-slice: 1;
+	background-image: url(https://pbs.twimg.com/media/GBZxe7pXwAAbW9W?format=jpg&name=small);
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.5); /* Initial shadow effect */
+    animation: changeColor 5s infinite alternate, changeBorder 5s infinite alternate, glowShadow 5s infinite alternate; /* Animations for color change, border color change, and shadow effect */
+    font-size: 1.5em;
+    color: white;
+    text-decoration: none;
+    border: 2px solid #fff;
+    margin: 10px;
+    transition: background-color 0.3s, color 0.3s;
+    
+	
+	
+	background-color: #000;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+	}
+.border {
+    border: 2px solid white; /* Initial border color */
+    border-radius: 10px; /* Make the text have flat edges */
+	border-image-slice: 1;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Initial shadow effect */
+    animation: changeColor 5s infinite alternate, changeBorder 5s infinite alternate, glowShadow 5s infinite alternate; /* Animations for color change, border color change, and shadow effect */
+	width: 30%;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1.5em;
+    color: white;
+    text-decoration: none;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    margin: 10px;
+    transition: background-color 0.3s, color 0.3s;
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1200px;
+	}
+.border:hover {
+	background-image: url(https://pbs.twimg.com/profile_banners/1683261652827774977/1701549700/1500x500);
+	background-size:cover;
+    color: white;
+	 box-sizing: border-box;
+    width: 33%; /* 2 columns per row, with a little gap */
+    padding: 20px;
+    margin: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+@keyframes changeBorder {
+    from {
+        border-color: #9370DB; /* Initial border color */
+    }
+
+    to {
+        border-color: #8A2BE2; /* Final border color */
+    }
+}
+@keyframes glowShadow {
+    from {
+        box-shadow: 0 0 45px rgba(255, 0, 0, 0.5); /* Initial shadow effect */
+    }
+
+    to {
+        box-shadow: 0 0 100px rgba(0, 128, 255, 0.7); /* Final shadow effect with changing color */
+    }
+}
+
+#buttons {
+    margin-top: 20px;
+}
+.color-changing-btn2 {
+    background-color: #3498db; /* Initial color */
+    color: white;
+    padding: 16px 12px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease; /* Add transition for smoother effect */
+    animation: colorChange 17s infinite alternate; /* Apply color change animation */
+	 border-radius: 5px;
+	 display: inline-block;
+    padding: 10px 20px;
+    font-size: 1.5em;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 10px;
+    transition: background-color 0.3s, color 0.3s;
+}
+.color-changing-btn2:hover {
+	background-image: url(https://pbs.twimg.com/profile_banners/1683261652827774977/1701549700/1500x500);
+	background-size:cover;
+    color: white;
+}
+/* Color change animation */
+@keyframes colorChange {
+    0% {
+        background-color: #3498db; /* Start color */
+    }
+    50% {
+        background-color: #e74c3c; /* Middle color */
+    }
+    100% {
+        background-color: #2ecc71; /* End color */
+    }
+}
+

@@ -1,0 +1,586 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	width: 100%;    
+	height: 420px;
+	color: white;
+}
+
+header {
+    background-color: black;
+    color: black;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+main {
+    text-align: center;
+	background: 
+		linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 10)), 
+		url(https://pbs.twimg.com/profile_banners/1683261652827774977/1701549700/1500x500);
+	background-size: cover;
+}
+
+.hero {
+    position: relative;
+    height: 400px;
+    background: url('hero-background.jpg') center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.hero-content {
+    z-index: 1;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+}
+
+.feature {
+    flex: 1;
+    padding: 20px;
+    background-color:black;
+    margin: 5px;
+    border-radius: 8px;
+	
+}
+
+/* Add this style inside your existing CSS file */
+
+.image-slider {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.slider-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-image img {
+    max-width: 100%;
+    max-height: 400px;
+    margin-right: 20px; /* Adjust the margin as needed */
+}
+
+.side-images img {
+    width: 250px; /* Adjust the width as needed */
+    height: 300px; /* Adjust the height as needed */
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.side-images img:hover {
+    transform: scale(1.2);
+}
+/* Add this style inside your existing CSS file */
+
+#countdown-container {
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+    background-color: #333;
+    color: #fff;
+}
+/* Add this style inside your existing CSS file */
+
+.site-evaluation {
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+}
+
+#rating-container {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.dot {
+    width: 20px;
+    height: 20px;
+    background-color: #ddd;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.dot.active {
+    background-color: #808080; /* Change the color for the selected dot */
+}
+
+.evaluation-result {
+    font-weight: bold;
+}
+
+/* Add this style inside your existing CSS file */
+
+/* Existing styles */
+
+.site-evaluation {
+    text-align: center;
+    padding: 20px;
+    background-color: #292929;
+}
+
+#rating-container {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.dot {
+    width: 20px;
+    height: 20px;
+    background-color: #ddd;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.dot.active {
+    background-color: #808080; /* Change the color for the selected dot */
+}
+
+.evaluation-result {
+    font-weight: bold;
+}
+
+/* New styles for Site Info, Contact Info, Email Form, and Google Map sections */
+
+.site-info,
+.contact-info,
+.email-form,
+.google-map {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.site-info h2,
+.contact-info h2,
+.email-form h2,
+.google-map h2 {
+    margin-bottom: 20px;
+}
+
+.site-info p,
+.contact-info p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.contact-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-info li {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.email-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.email-form label,
+.email-form textarea,
+.email-form input {
+    margin-bottom: 15px;
+    width: 100%;
+    max-width: 400px;
+}
+
+.email-form textarea {
+    height: 100px;
+}
+
+.email-form button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border: none
+}
+#buttons {
+    margin-top: 20px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1.5em;
+    color: white;
+    text-decoration: none;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    margin: 10px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.button:hover {
+	background-image: url(https://pbs.twimg.com/profile_banners/1683261652827774977/1701549700/1500x500);
+	background-size:cover;
+    color: white;
+}
+
+/* Reset some default browser styles */
+body, h1, h2, p, button {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+
+#products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 2em;
+}
+
+.product {
+    border: 1px solid #ccc;
+    padding: 1em;
+    margin: 1em;
+    text-align: center;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 0.5em 1em;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 0.5em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Color change animation */
+@keyframes colorChange {
+    0% {
+        background-color: #3498db; /* Start color */
+    }
+    50% {
+        background-color: #e74c3c; /* Middle color */
+    }
+    100% {
+        background-color: #2ecc71; /* End color */
+    }
+}
+
+.color-changing-btn {
+    background-color: #12323db; /* Initial color */
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.2s ease; /* Add transition for smoother effect */
+    animation: colorChange 25s infinite alternate; /* Apply color change animation */
+	 border-radius: 5px;
+}
+.color-changing-btn2 {
+    background-color: #3498db; /* Initial color */
+    color: white;
+    padding: 16px 12px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease; /* Add transition for smoother effect */
+    animation: colorChange 17s infinite alternate; /* Apply color change animation */
+	 border-radius: 5px;
+	 display: inline-block;
+    padding: 10px 20px;
+    font-size: 1.5em;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 10px;
+    transition: background-color 0.3s, color 0.3s;
+}
+.color-changing-btn2:hover {
+	background-image: url(https://pbs.twimg.com/profile_banners/1683261652827774977/1701549700/1500x500);
+	background-size:cover;
+    color: white;
+}
+
+a{
+
+text-decoration: none;
+}
+a:hover{
+
+text-decoration: none;
+}
+a:visited{
+
+text-decoration: none;
+}
+a:active{
+text-decoration: none;
+}
+
+.container {
+    display: flex;
+}
+
+.column {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
+
+.column img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.changing-text {
+    color: white; /* Initial text color */
+    animation: changeColor 10s infinite alternate; /* Animation for color change */
+	margin-top: 10px; /* Adjust the top margin as needed */
+}
+.column p {
+    text-align: justify; /* You can use 'left', 'right', 'center', or 'justify' based on your preference */
+}
+
+@keyframes changeColor {
+    from {
+        color: white; /* Initial color */
+    }
+
+    to {
+        color: #C0C0C0; /* Final color */
+    }
+}
+
+.back-button {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+    cursor: pointer;
+	background-color: black; /* Initial color */
+	border: none;
+    cursor: pointer;
+    font-size: 24px;
+    transition: background-color 0.2s ease; /* Add transition for smoother effect */
+    animation: colorChange 25s infinite alternate; /* Apply color change animation */
+	 border-radius: 5px;
+}
+.border {
+    border: 2px solid white; /* Initial border color */
+    border-radius: 10px; /* Make the text have flat edges */
+	border-image-slice: 1;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Initial shadow effect */
+    animation: changeColor 5s infinite alternate, changeBorder 5s infinite alternate, glowShadow 5s infinite alternate; /* Animations for color change, border color change, and shadow effect */
+	}
+
+@keyframes changeBorder {
+    from {
+        border-color: #9370DB; /* Initial border color */
+    }
+
+    to {
+        border-color: #8A2BE2; /* Final border color */
+    }
+}
+@keyframes glowShadow {
+    from {
+        box-shadow: 0 0 45px rgba(255, 0, 0, 0.5); /* Initial shadow effect */
+    }
+
+    to {
+        box-shadow: 0 0 100px rgba(0, 128, 255, 0.7); /* Final shadow effect with changing color */
+    }
+}
+
+.content {
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+#animatedText1 {
+    font-size: 14px;
+    color:white;
+    animation: fadeIn 5s ease-out;
+}
+#animatedText2 {
+    font-size: 14px;
+    color:white;
+    animation: fadeIn 5s ease-out;
+}
+#animatedText3 {
+    font-size: 14px;
+    color:white;
+    animation: fadeIn 5s ease-out;
+}
+#animatedText4 {
+    font-size: 14px;
+    color:white;
+    animation: fadeIn 5s ease-out;
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 4;
+    }
+}
+
+button {
+    font-size: 16px;
+    margin: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+	background: black; 
+}
+.fireButton {
+    font-size: 15px;
+    margin: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    background: linear-gradient(to bottom, #4B0082, #BA55D3);
+    color: rgba(255, 255, 255, 0.8); /* Partially transparent white text */
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+	font-family: Arial Black;
+}
+
+.fireButton:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, white, transparent);
+    opacity: 0.8;
+    transform: scaleY(0);
+    transform-origin: bottom;
+    transition: transform 0.5s ease-in-out;
+}
+
+.fireButton:hover:before {
+    transform: scaleY(1);
+}
+/* styles.css */
+.video-container {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+video {
+    width: 100%;
+    height: auto;
+    display: block;
+    border: 2px solid transparent; /* Set an initial transparent border */
+}
+
+/* Shimmering animation */
+@keyframes shimmer {
+    0% {
+        border-color: hsl(0, 100%, 50%); /* Red */
+        box-shadow: 0 0 10px rgba(255, 0, 0, 0.5); /* Red shadow */
+    }
+    25% {
+        border-color: hsl(90, 100%, 50%); /* Yellow */
+        box-shadow: 0 0 10px rgba(255, 255, 0, 0.5); /* Yellow shadow */
+    }
+    50% {
+        border-color: hsl(180, 100%, 50%); /* Green */
+        box-shadow: 0 0 10px rgba(0, 255, 0, 0.5); /* Green shadow */
+    }
+    75% {
+        border-color: hsl(270, 100%, 50%); /* Blue */
+        box-shadow: 0 0 10px rgba(0, 0, 255, 0.5); /* Blue shadow */
+    }
+    100% {
+        border-color: hsl(0, 100%, 50%); /* Red */
+        box-shadow: 0 0 10px rgba(255, 0, 0, 0.5); /* Red shadow */
+    }
+}
+
+/* Apply the shimmer animation to the video container */
+.video-container::before {
+    content: '';
+    position: absolute;
+    top: -6px;
+    left: -6px;
+    right: -6px;
+    bottom: -6px;
+  border: 2px solid transparent; /* Set an initial transparent border */
+    box-shadow: 0 0 15px rgba(255, 0, 0, 0.5); /* Initial red shadow */
+    border-radius: 10px;
+    animation: shimmer 3s linear infinite; /* Adjust the duration as needed */
+	
+}
